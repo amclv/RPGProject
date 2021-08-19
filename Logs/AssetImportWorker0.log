@@ -389,3 +389,47 @@ Received Import Request.
 Start importing Assets/Asset Packs/NewLayer 3.terrainlayer using Guid(f2671e37ec8bc461eb2f910da7dd775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e16714eb7a4fc29a56830778562827') in 0.320788 seconds 
   Import took 0.326620 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 801.589530 seconds.
+  path: Assets/Asset Packs/NewLayer 1.terrainlayer
+  artifactKey: Guid(875d2a1390b834686b0becc2552b50cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/NewLayer 1.terrainlayer using Guid(875d2a1390b834686b0becc2552b50cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed08a7d65686c16ba695dfcd0ad0e94') in 0.033774 seconds 
+  Import took 0.041724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Asset Packs/NewLayer 4.terrainlayer
+  artifactKey: Guid(a2affeb5811234a07abf8608af8b754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/NewLayer 4.terrainlayer using Guid(a2affeb5811234a07abf8608af8b754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfea220c4040e29bddd27e67895206f9') in 0.007921 seconds 
+  Import took 0.009516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Asset Packs/NewLayer 2.terrainlayer
+  artifactKey: Guid(b3e46218463484fbea759a8678c8f34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/NewLayer 2.terrainlayer using Guid(b3e46218463484fbea759a8678c8f34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28894910f459250933453d42392b011') in 0.008280 seconds 
+  Import took 0.010110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Asset Packs/NewLayer.terrainlayer
+  artifactKey: Guid(5521a35d461a5488ca99b60003f97872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/NewLayer.terrainlayer using Guid(5521a35d461a5488ca99b60003f97872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a580e8f1b448a01c89cb5fb36ef0216') in 0.008771 seconds 
+  Import took 0.010867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407599 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(4abc9593d71bf4ca693480b5ded6e139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(4abc9593d71bf4ca693480b5ded6e139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '5c0476828374e10ae8061b0d4ac6c2f4') in 0.281449 seconds 
+  Import took 0.284547 seconds .
+
