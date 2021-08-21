@@ -1,24 +1,28 @@
+using RPG.Movement;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour 
+namespace RPG.Control
 {
-    private void Update()
+    public class PlayerController : MonoBehaviour
     {
-        if (Input.GetMouseButton(0))
+        private void Update()
         {
-            MoveToCursor();
+            if (Input.GetMouseButton(0))
+            {
+                MoveToCursor();
+            }
         }
-    }
 
-    private void MoveToCursor()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hitInfo;
-        bool hasHit = Physics.Raycast(ray, out hitInfo);
-
-        if (hasHit)
+        private void MoveToCursor()
         {
-            GetComponent<Mover>().MoveTo(hitInfo.point);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitInfo;
+            bool hasHit = Physics.Raycast(ray, out hitInfo);
+
+            if (hasHit)
+            {
+                GetComponent<Mover>().MoveTo(hitInfo.point);
+            }
         }
     }
 }
