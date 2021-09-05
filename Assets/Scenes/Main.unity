@@ -321,6 +321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 877650215, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: chaseDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2072421115857052097, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
       propertyPath: healthPoints
       value: 5
@@ -460,6 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
+  suspicionTime: 3
 --- !u!114 &911817571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,6 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
+  suspicionTime: 3
 --- !u!1 &1971824500
 GameObject:
   m_ObjectHideFlags: 0
