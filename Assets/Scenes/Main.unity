@@ -371,24 +371,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
---- !u!1 &877650214 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3918095085422229619, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
-  m_PrefabInstance: {fileID: 877650213}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &877650215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877650214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54bd1756fc3574c53a1cb75e92bcf083, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chaseDistance: 5
 --- !u!1001 &911817568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -444,6 +426,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3918095085915987463, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
 --- !u!1 &911817569 stripped
@@ -464,6 +450,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
+--- !u!114 &911817571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911817569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247817657236c4d38aee23bd3a00e727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponRange: 2
+  timeBetweenAttacks: 1
+  weaponDamage: 5
 --- !u!1001 &1497566027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -584,6 +585,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3918095085915987463, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
 --- !u!1 &1647650111 stripped
@@ -600,10 +605,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1647650111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54bd1756fc3574c53a1cb75e92bcf083, type: 3}
+  m_Script: {fileID: 11500000, guid: 247817657236c4d38aee23bd3a00e727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseDistance: 5
+  weaponRange: 2
+  timeBetweenAttacks: 1
+  weaponDamage: 5
 --- !u!114 &1647650113
 MonoBehaviour:
   m_ObjectHideFlags: 0
