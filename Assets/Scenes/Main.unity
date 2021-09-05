@@ -321,6 +321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2072421115857052097, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: healthPoints
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3918095085422229619, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -369,7 +373,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1949870239157621741, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
 --- !u!1001 &911817568
 PrefabInstance:
@@ -378,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2072421115857052097, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: healthPoints
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3918095085422229619, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -430,7 +439,8 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1949870239157621741, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
 --- !u!1 &911817569 stripped
 GameObject:
@@ -475,6 +485,10 @@ PrefabInstance:
     - target: {fileID: 5033183685541975456, guid: d133b5f82a0c5418d9c37b4f558aa0be, type: 3}
       propertyPath: timeBetweenAttacks
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877894793500351319, guid: d133b5f82a0c5418d9c37b4f558aa0be, type: 3}
+      propertyPath: healthPoints
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8497824522320134885, guid: d133b5f82a0c5418d9c37b4f558aa0be, type: 3}
       propertyPath: m_Name
@@ -528,7 +542,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6394790960033556859, guid: d133b5f82a0c5418d9c37b4f558aa0be, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d133b5f82a0c5418d9c37b4f558aa0be, type: 3}
 --- !u!1001 &1647650110
 PrefabInstance:
@@ -537,6 +552,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2072421115857052097, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: healthPoints
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3918095085422229619, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -589,7 +608,8 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1949870239157621741, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
 --- !u!1 &1647650111 stripped
 GameObject:
