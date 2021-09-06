@@ -314,6 +314,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &855865691 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7020587769013048195, guid: 484cc5e109252457181241f6f6b155a2, type: 3}
+  m_PrefabInstance: {fileID: 7020587769264794328}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdc711ebd3b4e63b3c471ad533a7d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &877650213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -321,6 +332,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 877650215, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
+      propertyPath: patrolPath
+      value: 
+      objectReference: {fileID: 855865691}
     - target: {fileID: 877650215, guid: 37c8a9e4d3ac142cebc2b250644bb915, type: 3}
       propertyPath: chaseDistance
       value: 5
@@ -465,6 +480,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 3
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
 --- !u!114 &911817571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,6 +667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 3
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
 --- !u!1 &1971824500
 GameObject:
   m_ObjectHideFlags: 0
